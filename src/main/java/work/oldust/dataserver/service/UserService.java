@@ -2,10 +2,9 @@ package work.oldust.dataserver.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 import work.oldust.dataserver.entity.User;
 import work.oldust.dataserver.repository.UserRepository;
-
-import java.util.List;
 
 @Service
 public class UserService {
