@@ -7,8 +7,8 @@ services:
     ports:
       - "8080:8080"
     depends_on:
-      - mongo
-  mongo:
+      - mongodb
+  mongodb:
     image: mongo
     # volumes:
     #   - mongo-data:/data/db
